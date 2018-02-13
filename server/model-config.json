@@ -35,8 +35,24 @@
     "dataSource": "db",
     "public": false
   },
-  "dishes": {
-    "dataSource": "db",
+  "people": {
+    "dataSource": "mongoDS",
+    "public": true
+  },
+  "film": {
+    "dataSource": "mongoDS",
+    "public": true
+  },
+  "starship": {
+    "dataSource": "mongoDS",
+    "public": true
+  },
+  "species": {
+    "dataSource": "mongoDS",
+    "public": true
+  },
+  "planet": {
+    "dataSource": "mongoDS",
     "public": true
   }
 }
